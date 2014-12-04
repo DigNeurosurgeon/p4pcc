@@ -5,7 +5,7 @@ import random
 # Create a random solution
 solution = random.randint(0, 100)
 
-# Set guess to a start value
+# Set guess to a start value that cannot be the solution
 guess = -1
 
 print 'This is a number guessing game'
