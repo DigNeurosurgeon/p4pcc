@@ -8,11 +8,14 @@ solution = random.randint(0, 100)
 # Set guess to a start value
 guess = -1
 
+print 'This is a number guessing game'
+print 'Enter a whole number between 0 and 100...'
+
 # Now keep asking until the user guessed the correct answer
 while guess != solution:
 
 	# Ask user for a guess
-	guess = int(raw_input('Enter a whole number between 0 and 100:'))
+	guess = int(raw_input('Your guess: '))
 	print 'You guessed: %i' % guess
 	
 	# Compare guess with solution
