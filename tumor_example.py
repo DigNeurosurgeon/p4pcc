@@ -1,4 +1,4 @@
-# This now is a module that helps for tumor volumetry
+# This little utility helps to calculate tumor volume
 
 import math
 
@@ -10,3 +10,7 @@ def print_tumor_stats(diameter):
 	'''Print tumor parameters to the screen (based on diameter)'''
 	print 'Tumor diameter: ' + str(diameter) + ' cm'
 	print 'Tumor volume: %.2f cc' % calculate_tumor_volume(diameter)
+
+
+tumor_diameter = float(raw_input('Enter tumor diameter in cm: '))
+print_tumor_stats(tumor_diameter)
