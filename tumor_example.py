@@ -4,7 +4,7 @@ import math
 
 def calculate_tumor_volume(diameter):
 	'''Calculate tumor volume based on diameter'''
-	return (4/3) * math.pi * (tumor_diameter / 2) ** 3
+	return (4/3) * math.pi * (diameter / 2) ** 3
 
 def print_tumor_stats(diameter):
 	'''Print tumor parameters to the screen (based on diameter)'''
